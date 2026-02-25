@@ -1,8 +1,6 @@
 # Numpy Transformer Model
 This project implements an encoder only and decoder only Transformer model from scratch using only NumPy. The implementation focuses on understanding the core architecture of Transformers by building the model components manually without relying on high-level deep learning frameworks.
 
-## Architecture Details
-
 ## Key Components
 ```_generate_positional_encoding:``` Generates sine/cosine-based encodings to inject position information into the token embeddings.
 

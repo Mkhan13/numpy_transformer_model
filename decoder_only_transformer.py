@@ -94,12 +94,3 @@ def forward(self, x):
         vocab_scores = np.dot(x, self.W_out) # Project final hidden states to next token scores
         
         return vocab_scores
-
-'''
-Sources:
-
-"Attention Is All You Need" (Vaswani et al., 2017)
-LLM Foundations: Constructing and Training Decoder-Only Transformers: https://medium.com/@williamzebrowski7/llm-foundations-constructing-and-training-decoder-only-transformers-bfcc429b43a2
-Building a GPT-Style Transformer Model from Scratch: My Deep Learning Journey: https://medium.com/@helloitsdaksh007/building-a-gpt-style-transformer-model-from-scratch-my-deep-learning-journey-91a98af9e5d0
-mplementing a Decoder-Only Transformer from Scratch: https://github.com/shunzh/llm.ipynb/blob/main/llm.ipynb
-'''

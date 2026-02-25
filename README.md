@@ -1,14 +1,7 @@
 # Numpy Transformer Model
-This project implements a Transformer model from scratch using only NumPy. The implementation focuses on understanding the core architecture of Transformers by building the model components manually without relying on high-level deep learning frameworks.
+This project implements an encoder only and decoder only Transformer model from scratch using only NumPy. The implementation focuses on understanding the core architecture of Transformers by building the model components manually without relying on high-level deep learning frameworks.
 
 ## Architecture Details
-The Transformer is initialized with the following hyperparameters:
-* **Embedding Dimension (d_model):** 768
-* **Number of Attention Heads (num_heads):** 12
-* **Feedforward Dimension (d_ff):** 3072
-* **Sequence Length (seq_len):** 512
-
-These default values are based on the BERT model architecture.
 
 ## Key Components
 ```_generate_positional_encoding:``` Generates sine/cosine-based encodings to inject position information into the token embeddings.
@@ -38,6 +31,6 @@ print(output.shape)  # Expected output: (2, 512, 768)
 [Medium](https://medium.com/@hhpatil001/transformers-from-scratch-in-simple-python-part-i-b290760c1040)  
 [Pylessons](https://pylessons.com/transformers-introduction)  
 [Machine Learning Mastery](https://machinelearningmastery.com/the-transformer-model/)
-
-## Video Walkthrough
-Watch a video of me explaining the code [here](https://drive.google.com/file/d/1Xg-mITGe_EB8KKG6TmjJjsDdT4i7x75l/view?usp=sharing)
+[Medium: LLM Foundations: Constructing and Training Decoder-Only Transformers](https://medium.com/@williamzebrowski7/llm-foundations-constructing-and-training-decoder-only-transformers-bfcc429b43a2)
+[Medium: Building a GPT-Style Transformer Model from Scratch: My Deep Learning Journey](https://medium.com/@helloitsdaksh007/building-a-gpt-style-transformer-model-from-scratch-my-deep-learning-journey-91a98af9e5d0)
+[Implementing a Decoder-Only Transformer from Scratch](https://github.com/shunzh/llm.ipynb/blob/main/llm.ipynb)
